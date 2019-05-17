@@ -16,7 +16,7 @@ app.get('/**', (req,res) => {
     console.log('info', 'Req URL: ' +  req.url)
     console.log('info', 'Headers: ' + JSON.stringify(req.headers));
     // banner
-    let banner = 'safeway';
+    let banner = 'satic text';
     
 
     console.log('info','Banner is: ' + banner);
